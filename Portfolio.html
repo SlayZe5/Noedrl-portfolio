@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #2c4850;
+        }
+
+        .intro {
+            display: flex;
+            justify-content: center;
+            text-align: left;
+            height: 20vh;
+            background-color: #04404b;
+            color: white;
+        }
+
+        .intro h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .option {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            text-align: center;
+            height: 30vh;
+            background-color: #054f5c;
+             color: white;
+        }
+
+        .option h2 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .p_slam {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+
+        }
+
+        .p_sisr {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+
+        }
+
+        
+        .description {
+            max-width: 800px; 
+            font-size: 1rem;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#Accueil" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Accueil</span></a></li>
+          <li><a href="#Annexe" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Annexe</span></a></li>
+          <li><a href="#activite" class="nav-link scrollto"><i class="bi bi-mortarboard"></i> <span>activite</span></a></li>
+                <li><a href="#certification" class="nav-link scrollto"><i class="bi bi-folder"></i> <span>certification</span></a></li>
+          <li><a href="#Veille" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Veille</span></a>
+          </li>
+        </ul>
+    </nav>
+
+    <section class="intro">
+    <div>
+      <h1>Présentation</h1>
+      <p>Je suis Noe Deruelle actuellement étudiant au lycée Gaston Berger en première année de BTS SIO. </p>
+    </div>
+    </section>
+    <section class="option">
+    <div class="description">
+        <h2>Les options du BTS SIO</h2>
+        <p class="p_slam"> Option SLAM </p> 
+        <p class="description">SISR signifie Solutions d'Infrastructure, Systèmes et Réseaux. Grâce a cette option couvre un large éventail de compétences, allant de l’installation et la configuration de réseaux à 
+        la gestion de la sécurité informatique. Cette polyvalence est un atout majeur sur le marché du travail.
+        </p>
+    </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Deruelle</p>
+    </footer>
+</body>
+</html>
